@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <!-- Header section for the Contact Me page -->
+    <header>
+        <h1>Contact Me Page</h1>
+    </header>
+
+    <!-- Form for visitors to send a message -->
+    <section id="contact-form">
+        <h2>To Get in Touch</h2>
+        <form action="submit-message" method="post">
+            <label for="name">Enter Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Enter Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Please Enter Your Message Here:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
